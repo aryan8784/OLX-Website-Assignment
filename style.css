@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ===========================Navbar start===================== */
+
+.navbar-brand {
+    margin-top: 20px;
+}
+
+.navbar-brand img {
+    width: 60px;
+    margin-left: 50px;
+}
+
+.navbar-brand i {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.navbar-brand i p {
+    margin-left: 25px;
+    margin-top: -11px;
+
+}
+
+.navbar-brand i:hover {
+    color: #3a77ff;
+}
+
+/* ========================Navbar End================= */
+
+
+/* ==============================Header  Start======================= */
+
+
+.black_logo {
+    width: 120px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+::placeholder {
+    text-align: center;
+    color: darkslategrey;
+
+}
+
+.header i {
+    margin-left: 35px;
+}
+
+.header input {
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+input:hover {
+    border-color: #23e5db;
+}
+
+.header .sec-input {
+    width: 477px;
+}
+
+.search-btn {
+    font-size: 22px;
+    margin-left: -77px;
+    padding: 6px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
+.login-btn {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    color: #002f34;
+}
+
+.login-btn:hover {
+    text-decoration: none;
+}
+
+.sell-btn {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    color: #002f34;
+}
+
+.sell-btn:hover {
+    text-decoration: none;
+
+}
+
+/* =============================Header End================================ */
+
+
+
+.all,
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    color: #002f34;
+}
+
+.all,
+ul,
+li,
+a:hover {
+    color: #23e5db;
+}
+
+.cards {
+    cursor: pointer;
+}
+
+.card-title i{
+    margin-left: 100px;
+}
+
+
+/* ====================================== */
+
+.All-Categories {
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+.images-All-Categories {
+    display: flex;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.images-All-Categories a {
+    color: #222;
+    text-decoration: none;
+    margin-top: 55px;
+    margin-left: 13px;
+
+}
+
+.images-all {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.All-images-categories {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 100%;
+    height: 8.8rem;
+    width: 8.8rem;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.categories-name {
+    margin-top: 0.8rem;
+    width: 10.6rem;
+    text-transform: capitalize;
+}
+
+
+
+.view-more {
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    color: #3a77ff;
+   margin-left: 60%;
+}
+
+
+/* ========================Card Sec End========================= */
+
+.row{
+    background-color: #f7f8f9;
+    margin-top: 30px;
+}
+
+
+.olxMobileApp{
+    width: 50%;
+    margin-top: 70px;
+    border-right: 1px solid black;
+}
+
+
+.icons{
+    width: 15%;
+    display: flex;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+
+
+/* =========================Footer======================= */
+
+
+.footer-basic {
+    margin-top: 100px;
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul footer {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul footer:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:45px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #002f34;
+    margin:0 8px;
+    color:#3a77ff;
+    opacity:0.75;
+    transition: 0.5s;
+
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+    transform: rotate(90deg);
+
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#002f34;
+    margin-bottom:0;
+    cursor: pointer;
+  }
+  .footer-basic .copyright:hover{
+    color: #3a77ff;
+  }
